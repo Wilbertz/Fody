@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fody", "Fody\Fody.csproj", "{1097D1B7-138E-4B60-B6B5-73CB39686E3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fody.Console", "Fody\Fody.Console.csproj", "{1097D1B7-138E-4B60-B6B5-73CB39686E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fody", "FodyClass\Fody.csproj", "{5BA13BFD-4D88-4FDC-B7A8-2E4BE67FDB2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fody.Test", "Fody.Test\Fody.Test.csproj", "{CFCF2E51-F023-49D0-8878-8C9DEC384C21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{1097D1B7-138E-4B60-B6B5-73CB39686E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1097D1B7-138E-4B60-B6B5-73CB39686E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1097D1B7-138E-4B60-B6B5-73CB39686E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA13BFD-4D88-4FDC-B7A8-2E4BE67FDB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA13BFD-4D88-4FDC-B7A8-2E4BE67FDB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA13BFD-4D88-4FDC-B7A8-2E4BE67FDB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA13BFD-4D88-4FDC-B7A8-2E4BE67FDB2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFCF2E51-F023-49D0-8878-8C9DEC384C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCF2E51-F023-49D0-8878-8C9DEC384C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCF2E51-F023-49D0-8878-8C9DEC384C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCF2E51-F023-49D0-8878-8C9DEC384C21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
