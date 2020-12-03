@@ -13,7 +13,7 @@ namespace Fody
 
         public override string ToString()
         {
-            return string.Format("Name: {0}, Age: {1}, HomeTown: {2}", Name, Age, HomeTown);
+            return $"Name: {Name}, Age: {Age}, HomeTown: {HomeTown}";
         }
     }
 }
