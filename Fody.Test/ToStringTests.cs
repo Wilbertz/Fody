@@ -1,3 +1,4 @@
+using FodyCourse;
 using Xunit;
 
 namespace Fody.Test

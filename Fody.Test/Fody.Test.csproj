@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FodyClass\Fody.csproj" />
+    <ProjectReference Include="..\Fody\Fody.Console.csproj" />
   </ItemGroup>
 
 </Project>
